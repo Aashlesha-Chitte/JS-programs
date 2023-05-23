@@ -13,3 +13,6 @@ for (let i = 0; i < input.length; i++) {
   }
 }
 console.log(output);
+
+// output:
+// A2B2C1A1B2D1R1

@@ -15,7 +15,8 @@ for (let i = 0; i < input.length; i++) {
 }
 console.log(JSON.stringify(obj, null, 2));
 
-// let output = {
+// output:
+// {
 //   "A": 5,
 //   "B": 4,
 //   "C": 1,
