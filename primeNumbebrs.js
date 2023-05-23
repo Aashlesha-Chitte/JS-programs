@@ -51,7 +51,7 @@ const RangeForPrimeNumber = (no) => {
 };
 RangeForPrimeNumber(5);
 
-// output
+// output:
 // will print one by one after some delay
 // 1 is Not a Prime Number
 // 2 is a Prime Number
