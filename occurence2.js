@@ -1,18 +1,18 @@
 // JavaScript Program to Check the Total Number of Occurrences of a Character in the String
 
 const input = "AAAABBCABBDR";
-
+//
 let obj = {};
 let count = 1;
 
-for (let i = 0; i < input.length; i++) {
-  const key = input[i];
+for (const key of input) {
   if (obj[key]) {
     obj[key] = obj[key] + count;
   } else {
-    obj[input[i]] = count;
+    obj[key] = count;
   }
 }
+
 console.log(JSON.stringify(obj, null, 2));
 
 // output:

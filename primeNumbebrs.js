@@ -1,5 +1,7 @@
 // JavaScript Program to Print All Prime Numbers in an Interval
 
+// A prime number is a whole number greater than 1 that can only be divided evenly by 1 and itself, without any other numbers as factors. Put simply, prime numbers have no divisors other than 1 and the number itself.
+
 // using setInterval
 let i = 1;
 let flag = true;

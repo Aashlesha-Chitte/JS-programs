@@ -2,16 +2,22 @@
 
 const input = "AABBCABBDR";
 let output = "";
-let count = 1;
 
-for (let i = 0; i < input.length; i++) {
-  if (input[i] === input[i + 1]) {
+let currentChar = null;
+let count = 0;
+
+for (let char of input) {
+  if (char === currentChar) {
     count++;
   } else {
-    output += input[i] + count;
+    if (currentChar) {
+      output += currentChar + count;
+    }
+    currentChar = char;
     count = 1;
   }
 }
+output += currentChar + count;
 console.log(output);
 
 // output:
